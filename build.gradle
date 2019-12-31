@@ -34,3 +34,9 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+jar{
+	manifest{
+		attributes 'Main-class' : 'com.mwshin.webservice.LotteWebServiceApplication.java'
+	}
+}
